@@ -1,0 +1,127 @@
+package com.example.lab_ux_animedxd;
+
+import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager2.widget.ViewPager2;
+
+import android.os.Handler;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ViewFlipper;
+
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+///**
+// * A simple {@link Fragment} subclass.
+// * Use the {@link homePage#newInstance} factory method to
+// * create an instance of this fragment.
+// */
+public class homePage extends Fragment {
+
+//  Ini Buat set indicator carouselnya
+    private TabLayout indicatorLayout;
+
+    private Handler handler = new Handler();
+    private Runnable runnable;
+    private int currentPage = 0;
+
+    private List<Carousel> carouselImages;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_home_page, container, false);
+
+        // == Carousel ==
+
+//        indicatorLayout = view.findViewById(R.id.tabIndicator);
+
+        // Gambar Carousel
+//        carouselImages = Arrays.asList(
+//                R.drawable.manga_orv,
+//                R.drawable.cover1,
+//                R.drawable.sakamoto
+//        );
+
+        // Set Adapter buat carousel
+//        CarouselAdapter adapter = new CarouselAdapter(requireContext(), carouselImages);
+//        carouselViewPager.setAdapter(adapter);
+//
+//        // Set indikator pakai tablayout
+//        new TabLayoutMediator(indicatorLayout, carouselViewPager, (tab, position) -> {}).attach();
+//
+//        //Slide manual
+//        carouselViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+//            @Override
+//            public void onPageSelected(int position) {
+//                currentPage = position;
+//            }
+//        });
+
+        //  Auto-slide pake runnable
+//        runnable = () -> {
+//            if (currentPage >= carouselImages.size()) currentPage = 0;
+//            carouselViewPager.setCurrentItem(currentPage++, true);
+//            handler.postDelayed(runnable, 5000);
+//        };
+
+        // == Tab Layout ==
+        // === TabLayout + ViewPager2 ===
+        TabLayout tabLayout = view.findViewById(R.id.tabLayout);
+        ViewPager2 viewPagerTabs = view.findViewById(R.id.viewPager);
+
+        ViewPagerAdapter tabAdapter = new ViewPagerAdapter(requireActivity());
+        tabAdapter.addFragment(new newsFragment(), "News");
+        tabAdapter.addFragment(new mangaFragment(), "Manga List");
+
+        viewPagerTabs.setAdapter(tabAdapter);
+
+        new TabLayoutMediator(tabLayout, viewPagerTabs,
+                (tab, position) -> tab.setText(tabAdapter.getPageTitle(position))
+        ).attach();
+        return view;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        // --- Buat Carousel ---
+
+        // Isi gambarnyaaa
+        List<Carousel> carousels = new ArrayList<>();
+        carousels.add(new Carousel(R.drawable.cover1));
+        carousels.add(new Carousel(R.drawable.sakamoto));
+        carousels.add(new Carousel(R.drawable.blackclover));
+
+        ViewFlipper keliling = view.findViewById(R.id.carouselFlipper);
+
+        for (Carousel carousel : carousels) {
+            View container = LayoutInflater.from(getContext()).inflate(R.layout.isi_carousel, keliling, false);
+            ImageView image = container.findViewById(R.id.isi_carousel);
+
+            image.setImageResource(carousel.getImage());
+            keliling.addView(container);
+        }
+        keliling.setFlipInterval(5000);
+        keliling.setAutoStart(true);
+        keliling.setInAnimation(getContext(), android.R.anim.slide_in_left);
+        keliling.setOutAnimation(getContext(), android.R.anim.fade_out);
+    }
+
+
+
+
+}
