@@ -30,52 +30,10 @@ import java.util.List;
 // */
 public class homePage extends Fragment {
 
-//  Ini Buat set indicator carouselnya
-    private TabLayout indicatorLayout;
-
-    private Handler handler = new Handler();
-    private Runnable runnable;
-    private int currentPage = 0;
-
-    private List<Carousel> carouselImages;
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_page, container, false);
-
-        // == Carousel ==
-
-//        indicatorLayout = view.findViewById(R.id.tabIndicator);
-
-        // Gambar Carousel
-//        carouselImages = Arrays.asList(
-//                R.drawable.manga_orv,
-//                R.drawable.cover1,
-//                R.drawable.sakamoto
-//        );
-
-        // Set Adapter buat carousel
-//        CarouselAdapter adapter = new CarouselAdapter(requireContext(), carouselImages);
-//        carouselViewPager.setAdapter(adapter);
-//
-//        // Set indikator pakai tablayout
-//        new TabLayoutMediator(indicatorLayout, carouselViewPager, (tab, position) -> {}).attach();
-//
-//        //Slide manual
-//        carouselViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-//            @Override
-//            public void onPageSelected(int position) {
-//                currentPage = position;
-//            }
-//        });
-
-        //  Auto-slide pake runnable
-//        runnable = () -> {
-//            if (currentPage >= carouselImages.size()) currentPage = 0;
-//            carouselViewPager.setCurrentItem(currentPage++, true);
-//            handler.postDelayed(runnable, 5000);
-//        };
 
         // == Tab Layout ==
         // === TabLayout + ViewPager2 ===
@@ -98,29 +56,44 @@ public class homePage extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // --- Buat Carousel ---
-
-        // Isi gambarnyaaa
-        List<Carousel> carousels = new ArrayList<>();
-        carousels.add(new Carousel(R.drawable.cover1));
-        carousels.add(new Carousel(R.drawable.sakamoto));
-        carousels.add(new Carousel(R.drawable.blackclover));
-
-        ViewFlipper keliling = view.findViewById(R.id.carouselFlipper);
-
-        for (Carousel carousel : carousels) {
-            View container = LayoutInflater.from(getContext()).inflate(R.layout.isi_carousel, keliling, false);
-            ImageView image = container.findViewById(R.id.isi_carousel);
-
-            image.setImageResource(carousel.getImage());
-            keliling.addView(container);
-        }
-        keliling.setFlipInterval(5000);
-        keliling.setAutoStart(true);
-        keliling.setInAnimation(getContext(), android.R.anim.slide_in_left);
-        keliling.setOutAnimation(getContext(), android.R.anim.fade_out);
+//        // --- Buat Carousel ---
+//        ViewPager2 carouselViewPager = view.findViewById(R.id.carouselViewPager);
+//        // Isi gambarnyaaa
+//        List<Carousel> carousels = new ArrayList<>();
+//        carousels.add(new Carousel(R.drawable.cover1));
+//        carousels.add(new Carousel(R.drawable.sakamoto));
+//        carousels.add(new Carousel(R.drawable.blackclover));
+//
+//        CarouselAdapter adapter = new CarouselAdapter(carousels);
+//        carouselViewPager.setAdapter(adapter);
+//
+//        autoScrollRunnable = () -> {
+//            int currentItem = carouselViewPager.getCurrentItem();
+//            int nextItem = currentItem + 1;
+//
+//            // Jika sudah di item terakhir, kembali ke awal
+//            if (nextItem >= adapter.getItemCount()) {
+//                nextItem = 0;
+//            }
+//
+//            carouselViewPager.setCurrentItem(nextItem, true); // 'true' untuk animasi geser mulus
+//
+//            // Jadwalkan eksekusi berikutnya
+//            autoScrollHandler.postDelayed(autoScrollRunnable, SCROLL_DELAY);
+//        };
+//        for (Carousel carousel : carousels) {
+//            View container = LayoutInflater.from(getContext()).inflate(R.layout.isi_carousel, keliling, false);
+//            ImageView image = container.findViewById(R.id.isi_carousel);
+//
+//            image.setImageResource(carousel.getImage());
+//            keliling.addView(container);
+//        }
+//        keliling.setFlipInterval(5000);
+//        keliling.setAutoStart(true);
+//        keliling.setInAnimation(getContext(), android.R.anim.slide_in_left);
+//        keliling.setOutAnimation(getContext(), android.R.anim.fade_out);
+//        keliling.startFlipping();
     }
-
 
 
 

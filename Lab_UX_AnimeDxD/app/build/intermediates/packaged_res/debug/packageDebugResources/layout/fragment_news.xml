@@ -7,6 +7,16 @@
     android:orientation="vertical"
     >
     <!-- INI BAGIAN NEWS   -->
+
+    <!-- TODO: Carousel -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/carouselViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:clipToPadding="false"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

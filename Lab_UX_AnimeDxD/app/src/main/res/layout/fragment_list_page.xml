@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".listPage"
     android:orientation="vertical"
+    android:background="#232E3F"
     >
 
     <!-- TODO: Header  -->
@@ -28,7 +29,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Anime DxD"
+        android:text="AnimeDxD List"
         android:textSize="20sp"
         android:textColor="@color/white"
         />

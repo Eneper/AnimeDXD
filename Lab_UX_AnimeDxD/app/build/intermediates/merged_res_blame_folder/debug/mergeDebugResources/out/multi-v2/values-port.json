@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lab_ux_animedxd.app-mergeDebugResources-30:/values-port/values-port.xml",
+            "outputFile": "com.example.lab_ux_animedxd.app-mergeDebugResources-33:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\3nver\\.gradle\\caches\\8.11.1\\transforms\\2d817a3ee7c8717ea1f15b6912b51483\\transformed\\appcompat-1.7.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\3nver\\.gradle\\caches\\8.11.1\\transforms\\4a35c113690ebc24269d3b23bd0fa2c2\\transformed\\appcompat-1.7.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

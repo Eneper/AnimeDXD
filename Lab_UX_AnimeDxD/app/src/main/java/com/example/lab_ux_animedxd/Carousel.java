@@ -14,7 +14,7 @@ public class Carousel {
         return image;
     }
 
-    public int getImageResourceId(){
-        return getImageResourceId();
-    }
+//    public int getImageResourceId(){
+//        return getImageResourceId();
+//    }
 }

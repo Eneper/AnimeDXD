@@ -3225,6 +3225,7 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id activity_container
 id add
 id alertTitle
 id aligned
@@ -3257,11 +3258,12 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_login
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
-id carouselFlipper
+id carouselViewPager
 id carryVelocity
 id center
 id centerCrop
@@ -3340,6 +3342,8 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id et_password
+id et_usname
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3469,6 +3473,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav_about
 id nav_home
 id nav_list
 id navigation_bar_item_active_indicator_view
@@ -3649,6 +3654,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_login_title
 id unchecked
 id uniform
 id unlabeled
@@ -3808,16 +3814,18 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_about
+layout fragment_app_nav
 layout fragment_home_page
 layout fragment_home_page_backup
 layout fragment_list_page
+layout fragment_login
 layout fragment_manga
 layout fragment_news
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout isi_carousel
 layout item_list
-layout login_page
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3910,6 +3918,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in
+string action_sign_in_short
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3938,7 +3948,10 @@ string fab_transformation_sheet_behavior
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string invalid_password
+string invalid_username
 string item_view_role_description
+string login_failed
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4044,6 +4057,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string prompt_email
+string prompt_password
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4051,6 +4066,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
