@@ -9,6 +9,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.media3.ui.PlayerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
@@ -32,15 +33,19 @@ public final class FragmentHomePageBinding implements ViewBinding {
   public final TabLayout tabLayout;
 
   @NonNull
+  public final PlayerView videoPlayerView;
+
+  @NonNull
   public final ViewPager2 viewPager;
 
   private FragmentHomePageBinding(@NonNull ScrollView rootView, @NonNull TextView appName,
       @NonNull ImageButton menuButton, @NonNull TabLayout tabLayout,
-      @NonNull ViewPager2 viewPager) {
+      @NonNull PlayerView videoPlayerView, @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.appName = appName;
     this.menuButton = menuButton;
     this.tabLayout = tabLayout;
+    this.videoPlayerView = videoPlayerView;
     this.viewPager = viewPager;
   }
 
@@ -89,6 +94,12 @@ public final class FragmentHomePageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.video_player_view;
+      PlayerView videoPlayerView = ViewBindings.findChildViewById(rootView, id);
+      if (videoPlayerView == null) {
+        break missingId;
+      }
+
       id = R.id.viewPager;
       ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
@@ -96,7 +107,7 @@ public final class FragmentHomePageBinding implements ViewBinding {
       }
 
       return new FragmentHomePageBinding((ScrollView) rootView, appName, menuButton, tabLayout,
-          viewPager);
+          videoPlayerView, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

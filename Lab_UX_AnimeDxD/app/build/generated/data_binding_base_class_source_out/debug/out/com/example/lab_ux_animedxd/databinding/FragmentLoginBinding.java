@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,7 +19,7 @@ import java.lang.String;
 
 public final class FragmentLoginBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button btnLogin;
@@ -33,7 +33,7 @@ public final class FragmentLoginBinding implements ViewBinding {
   @NonNull
   public final TextView tvLoginTitle;
 
-  private FragmentLoginBinding(@NonNull RelativeLayout rootView, @NonNull Button btnLogin,
+  private FragmentLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
       @NonNull EditText etPassword, @NonNull EditText etUsname, @NonNull TextView tvLoginTitle) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
@@ -44,7 +44,7 @@ public final class FragmentLoginBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -93,7 +93,7 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentLoginBinding((RelativeLayout) rootView, btnLogin, etPassword, etUsname,
+      return new FragmentLoginBinding((LinearLayout) rootView, btnLogin, etPassword, etUsname,
           tvLoginTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);

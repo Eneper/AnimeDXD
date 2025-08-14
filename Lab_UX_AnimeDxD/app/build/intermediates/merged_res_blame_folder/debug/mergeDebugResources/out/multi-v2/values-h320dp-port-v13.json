@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lab_ux_animedxd.app-mergeDebugResources-33:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.lab_ux_animedxd.app-mergeDebugResources-37:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\3nver\\.gradle\\caches\\8.11.1\\transforms\\ff8e65b9a7d45a2f4376824099c5d2ea\\transformed\\material-1.12.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\3nver\\.gradle\\caches\\8.11.1\\transforms\\2b52f4b82fdae930557659ee072dcde3\\transformed\\material-1.12.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

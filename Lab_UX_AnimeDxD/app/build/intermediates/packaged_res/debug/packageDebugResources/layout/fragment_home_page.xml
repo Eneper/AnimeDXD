@@ -51,6 +51,10 @@
 
         </LinearLayout>
 
+        <androidx.media3.ui.PlayerView
+            android:id="@+id/video_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"/>
 
         <!-- TODO: Tab Control -->
         <com.google.android.material.tabs.TabLayout

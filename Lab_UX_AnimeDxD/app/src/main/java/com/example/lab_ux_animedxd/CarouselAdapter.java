@@ -47,3 +47,4 @@ public class CarouselAdapter extends RecyclerView.Adapter<CarouselAdapter.Carous
         }
     }
 }
+

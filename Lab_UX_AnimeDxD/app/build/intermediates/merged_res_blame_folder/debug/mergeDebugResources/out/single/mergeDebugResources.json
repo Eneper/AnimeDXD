@@ -1,306 +1,302 @@
 [
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_weakhero.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\weakhero.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_myteenromanticcomedysnafu.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/myteenromanticcomedysnafu.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\menu_bottom_navigation_menu.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\menu\\bottom_navigation_menu.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_bochi3.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/bochi3.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_windbreaker.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\windbreaker.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_tunnel2.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\tunnel2.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_blackclover.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/blackclover.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_manga_orv.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\manga_orv.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_theeminenceinshadow.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\theeminenceinshadow.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_activity_main.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_sakamoto.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\sakamoto.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_cover1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/cover1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_tunnel.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\tunnel.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_forestoffireflylights.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/forestoffireflylights.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_cover5.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\cover5.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_indicator_active.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/indicator_active.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_cover5.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/cover5.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_app_nav.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_app_nav.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_list_page.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_list_page.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_home_page.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_home_page.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_bochi.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/bochi.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_haikyu.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\haikyu.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_heroticket.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/heroticket.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_blackclover1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/blackclover1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_frieren2.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\frieren2.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_tunnel3.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/tunnel3.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_blackclover2.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\blackclover2.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_manga_orv.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/manga_orv.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_cover2.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\cover2.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_news.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_news.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_ic_menu.png.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\ic_menu.png"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_theeminenceinshadow.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/theeminenceinshadow.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_bochi4.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\bochi4.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_home_page_backup.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_home_page_backup.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_windbreakerwebtoon.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/windbreakerwebtoon.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_bochi.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\bochi.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_frieren2.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/frieren2.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_mydressupdarling.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/mydressupdarling.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_forestoffireflylights.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\forestoffireflylights.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_sakamoto.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/sakamoto.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_about_us.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\about_us.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_login.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_windbreakerwebtoon.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\windbreakerwebtoon.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_cover2.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/cover2.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_frieren3.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/frieren3.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_frieren.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\frieren.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_bochi4.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/bochi4.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_cover6.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\cover6.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_weakhero.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/weakhero.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_koenokatachi1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\koenokatachi1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_tunnel.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/tunnel.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_blackclover1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\blackclover1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_indicator_inactive.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/indicator_inactive.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_bochi1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\bochi1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_cover6.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/cover6.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_home_page.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_home_page.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_login.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_manga.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_manga.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_pangeranketujuh1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\pangeranketujuh1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_item_list.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/item_list.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_list_page.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_list_page.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_home_page_backup.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_home_page_backup.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_ic_menu.png.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/ic_menu.png"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_heroticket.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\heroticket.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_about_us.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/about_us.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_cover3.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\cover3.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\xml\\backup_rules.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_koenokatachi.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/koenokatachi.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\activity_main.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_blackclover3.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/blackclover3.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_hyouka.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\hyouka.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_bochi1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/bochi1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_frieren3.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\frieren3.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_tenkinoko1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\tenkinoko1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_isi_carousel.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/isi_carousel.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_tenkinoko.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\tenkinoko.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_mydressupdarling.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\mydressupdarling.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_hyouka.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/hyouka.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_blackclover.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\blackclover.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_windbreaker.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/windbreaker.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_eliteclassroom.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\eliteclassroom.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_pangeranketujuh2.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/pangeranketujuh2.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_kerenaja.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\kerenaja.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_tunnel1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/tunnel1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_koenokatachi.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\koenokatachi.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_tenkinoko1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/tenkinoko1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_onepiece.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\onepiece.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/xml_backup_rules.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_cover4.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\cover4.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_cover3.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/cover3.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_tunnel3.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\tunnel3.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_blackclover2.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/blackclover2.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_news.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_news.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_haikyu.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/haikyu.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_haikyu1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\haikyu1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_item_list.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\item_list.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.lab_ux_animedxd.app-debug-35:/layout_fragment_news.xml.flat",
-        "source": "com.example.lab_ux_animedxd.app-main-37:/layout/fragment_news.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_cover4.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/cover4.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_manga.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_manga.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_tunnel2.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/tunnel2.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_isi_carousel.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\isi_carousel.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_about.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_about.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_indicator_inactive.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\indicator_inactive.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_pangeranketujuh1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/pangeranketujuh1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_indicator_active.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\indicator_active.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_pangeranketujuh2.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\pangeranketujuh2.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_cover1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\cover1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_haikyu1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/haikyu1.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_tenkinoko.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/tenkinoko.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_kerenaja.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/kerenaja.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_frieren.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/frieren.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_tunnel1.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\tunnel1.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_onepiece.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/onepiece.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_bochi3.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\bochi3.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_app_nav.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_app_nav.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\layout_fragment_about.xml.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\layout\\fragment_about.xml"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_eliteclassroom.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/eliteclassroom.jpg"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_blackclover3.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\blackclover3.jpg"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\drawable_myteenromanticcomedysnafu.jpg.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\drawable\\myteenromanticcomedysnafu.jpg"
-    },
-    {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/drawable_koenokatachi1.jpg.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/drawable/koenokatachi1.jpg"
     }
 ]

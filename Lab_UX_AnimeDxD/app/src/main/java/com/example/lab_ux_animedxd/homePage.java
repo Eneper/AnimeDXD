@@ -6,6 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
+import androidx.media3.common.MediaItem;
+import androidx.media3.exoplayer.ExoPlayer;
+import androidx.media3.ui.PlayerView;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Handler;
@@ -30,6 +33,8 @@ import java.util.List;
 // */
 public class homePage extends Fragment {
 
+    private ExoPlayer player;
+    private PlayerView playerView;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -55,44 +60,65 @@ public class homePage extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        playerView = view.findViewById(R.id.video_player_view);
 
-//        // --- Buat Carousel ---
-//        ViewPager2 carouselViewPager = view.findViewById(R.id.carouselViewPager);
-//        // Isi gambarnyaaa
-//        List<Carousel> carousels = new ArrayList<>();
-//        carousels.add(new Carousel(R.drawable.cover1));
-//        carousels.add(new Carousel(R.drawable.sakamoto));
-//        carousels.add(new Carousel(R.drawable.blackclover));
-//
-//        CarouselAdapter adapter = new CarouselAdapter(carousels);
-//        carouselViewPager.setAdapter(adapter);
-//
-//        autoScrollRunnable = () -> {
-//            int currentItem = carouselViewPager.getCurrentItem();
-//            int nextItem = currentItem + 1;
-//
-//            // Jika sudah di item terakhir, kembali ke awal
-//            if (nextItem >= adapter.getItemCount()) {
-//                nextItem = 0;
-//            }
-//
-//            carouselViewPager.setCurrentItem(nextItem, true); // 'true' untuk animasi geser mulus
-//
-//            // Jadwalkan eksekusi berikutnya
-//            autoScrollHandler.postDelayed(autoScrollRunnable, SCROLL_DELAY);
-//        };
-//        for (Carousel carousel : carousels) {
-//            View container = LayoutInflater.from(getContext()).inflate(R.layout.isi_carousel, keliling, false);
-//            ImageView image = container.findViewById(R.id.isi_carousel);
-//
-//            image.setImageResource(carousel.getImage());
-//            keliling.addView(container);
-//        }
-//        keliling.setFlipInterval(5000);
-//        keliling.setAutoStart(true);
-//        keliling.setInAnimation(getContext(), android.R.anim.slide_in_left);
-//        keliling.setOutAnimation(getContext(), android.R.anim.fade_out);
-//        keliling.startFlipping();
+
+    }
+
+    private void initializePlayer() {
+        player = new ExoPlayer.Builder(requireContext()).build();
+        playerView.setPlayer(player);
+
+        // Buat item media dari URL video
+        // Ganti URL ini dengan URL video Anda atau gunakan dari folder raw
+        MediaItem mediaItem = MediaItem.fromUri("");
+
+        // Set item media ke player dan siapkan
+        player.setMediaItem(mediaItem);
+        player.prepare();
+        player.play();
+    }
+
+    // Metode untuk melepaskan player saat tidak dibutuhkan
+    private void releasePlayer() {
+        if (player != null) {
+            player.release();
+            player = null;
+        }
+    }
+
+    // --- Manajemen Siklus Hidup (Sangat Penting!) ---
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Inisialisasi player saat fragment dimulai/terlihat
+        initializePlayer();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (player != null) {
+            // Lanjutkan pemutaran jika aplikasi kembali dari background
+            player.play();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        if (player != null) {
+            // Jeda pemutaran saat aplikasi di-pause
+            player.pause();
+        }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        // Hancurkan player saat fragment tidak lagi terlihat untuk menghemat resource
+        releasePlayer();
     }
 
 

@@ -70,6 +70,7 @@ id nav_list
 id tabIndicator
 id tabLayout
 id tv_login_title
+id video_player_view
 id viewPager
 id viewPagerCarousel
 layout about_us
