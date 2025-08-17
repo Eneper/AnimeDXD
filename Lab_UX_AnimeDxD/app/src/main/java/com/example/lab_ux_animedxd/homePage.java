@@ -1,5 +1,6 @@
 package com.example.lab_ux_animedxd;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -15,8 +16,11 @@ import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
+import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 import com.google.android.material.tabs.TabLayout;
@@ -35,6 +39,45 @@ public class homePage extends Fragment {
 
     private ExoPlayer player;
     private PlayerView playerView;
+
+    private String username;
+
+    public interface OnLogoutListener {
+        void onLogout();
+    }
+    private OnLogoutListener logoutListener;
+
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        // Pastikan MainActivity mengimplementasikan listener ini
+        if (context instanceof OnLogoutListener) {
+            logoutListener = (OnLogoutListener) context;
+        } else {
+            throw new ClassCastException(context.toString() + " must implement OnLogoutListener");
+        }
+    }
+
+    //Buat passing nama
+    public static homePage newInstance(String username) {
+        homePage fragment= new homePage();
+        Bundle args = new Bundle();
+        args.putString("USERNAME_KEY", username); // Gunakan key yang konsisten
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // 2. Ambil username dari arguments saat fragment dibuat
+        if (getArguments() != null) {
+            username = getArguments().getString("USERNAME_KEY");
+        }
+    }
+
+    //Buat nampilin apa aja yang mau ditampilin di homepage
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -57,11 +100,21 @@ public class homePage extends Fragment {
         return view;
     }
 
+    //Buat nampilin apa yang ditampilin di tempat yang udah ditampilin
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         playerView = view.findViewById(R.id.video_player_view);
 
+        TextView welcomeName = view.findViewById(R.id.usName);
+        if(username != null && !username.isEmpty()){
+            welcomeName.setText("Welcome, "+ username + "!");
+        }else{
+            welcomeName.setText("No name");
+        }
+
+        ImageButton menuButton = view.findViewById(R.id.logoutButton);
+        menuButton.setOnClickListener(v -> showPopupMenu(v));
 
     }
 
@@ -86,8 +139,6 @@ public class homePage extends Fragment {
             player = null;
         }
     }
-
-    // --- Manajemen Siklus Hidup (Sangat Penting!) ---
 
     @Override
     public void onStart() {
@@ -121,6 +172,28 @@ public class homePage extends Fragment {
         releasePlayer();
     }
 
+    //Popup logout
+    private void showPopupMenu(View anchorView) {
+        // Buat instance PopupMenu
+        PopupMenu popup = new PopupMenu(requireContext(), anchorView);
 
+        // Hubungkan dengan file menu kita
+        popup.getMenuInflater().inflate(R.menu.logout_menu, popup.getMenu());
+
+        // Atur listener untuk menangani klik pada item menu
+        popup.setOnMenuItemClickListener(item -> {
+            if (item.getItemId() == R.id.action_logout) {
+                // Panggil listener di MainActivity saat "Logout" diklik
+                if (logoutListener != null) {
+                    logoutListener.onLogout();
+                }
+                return true;
+            }
+            return false;
+        });
+
+        // Tampilkan popup
+        popup.show();
+    }
 
 }

@@ -24,13 +24,13 @@ public final class FragmentHomePageBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
-  public final TextView appName;
-
-  @NonNull
-  public final ImageButton menuButton;
+  public final ImageButton logoutButton;
 
   @NonNull
   public final TabLayout tabLayout;
+
+  @NonNull
+  public final TextView usName;
 
   @NonNull
   public final PlayerView videoPlayerView;
@@ -38,13 +38,13 @@ public final class FragmentHomePageBinding implements ViewBinding {
   @NonNull
   public final ViewPager2 viewPager;
 
-  private FragmentHomePageBinding(@NonNull ScrollView rootView, @NonNull TextView appName,
-      @NonNull ImageButton menuButton, @NonNull TabLayout tabLayout,
-      @NonNull PlayerView videoPlayerView, @NonNull ViewPager2 viewPager) {
+  private FragmentHomePageBinding(@NonNull ScrollView rootView, @NonNull ImageButton logoutButton,
+      @NonNull TabLayout tabLayout, @NonNull TextView usName, @NonNull PlayerView videoPlayerView,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
-    this.appName = appName;
-    this.menuButton = menuButton;
+    this.logoutButton = logoutButton;
     this.tabLayout = tabLayout;
+    this.usName = usName;
     this.videoPlayerView = videoPlayerView;
     this.viewPager = viewPager;
   }
@@ -76,21 +76,21 @@ public final class FragmentHomePageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.appName;
-      TextView appName = ViewBindings.findChildViewById(rootView, id);
-      if (appName == null) {
-        break missingId;
-      }
-
-      id = R.id.menuButton;
-      ImageButton menuButton = ViewBindings.findChildViewById(rootView, id);
-      if (menuButton == null) {
+      id = R.id.logoutButton;
+      ImageButton logoutButton = ViewBindings.findChildViewById(rootView, id);
+      if (logoutButton == null) {
         break missingId;
       }
 
       id = R.id.tabLayout;
       TabLayout tabLayout = ViewBindings.findChildViewById(rootView, id);
       if (tabLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.usName;
+      TextView usName = ViewBindings.findChildViewById(rootView, id);
+      if (usName == null) {
         break missingId;
       }
 
@@ -106,7 +106,7 @@ public final class FragmentHomePageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomePageBinding((ScrollView) rootView, appName, menuButton, tabLayout,
+      return new FragmentHomePageBinding((ScrollView) rootView, logoutButton, tabLayout, usName,
           videoPlayerView, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);

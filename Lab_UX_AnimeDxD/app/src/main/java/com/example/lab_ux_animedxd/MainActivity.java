@@ -20,7 +20,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements loginFragment.OnLoginSuccessListener {
+public class MainActivity extends AppCompatActivity implements loginFragment.OnLoginSuccessListener, homePage.OnLogoutListener , about.OnLogoutRequestListener
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,15 +38,33 @@ public class MainActivity extends AppCompatActivity implements loginFragment.OnL
 
     // Metode ini akan dipanggil dari LoginFragment saat login berhasil
     @Override
-    public void onLoginSuccess() {
+    public void onLoginSuccess(String username) {
         // Ganti LoginFragment dengan MainStructureFragment
-        loadFragment(new appNav());
+        appNav mainFragment = appNav.newInstance(username);
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.activity_container, mainFragment)
+                .commit();
     }
 
     // Helper method untuk memuat fragment
     private void loadFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.activity_container, fragment)
+                .commit();
+    }
+
+    @Override
+    public void onLogout() {
+        // Ganti fragment yang sedang tampil dengan LoginFragment
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.activity_container, new loginFragment())
+                .commit();
+    }
+
+    public void onLogoutAbout(){
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.activity_container, new loginFragment())
                 .commit();
     }
 }

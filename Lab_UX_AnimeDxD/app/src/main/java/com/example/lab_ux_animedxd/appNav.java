@@ -15,6 +15,25 @@ import android.view.ViewGroup;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class appNav extends Fragment {
 
+    private String  loggedIn;
+
+    public static appNav newInstance(String username) {
+        appNav fragment = new appNav();
+        Bundle args = new Bundle();
+        args.putString("USERNAME_KEY", username); // Gunakan key yang konsisten
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // 2. Ambil username dari arguments saat fragment dibuat
+        if (getArguments() != null) {
+            loggedIn = getArguments().getString("USERNAME_KEY");
+        }
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -25,7 +44,8 @@ public class appNav extends Fragment {
 
         // Load halaman home sebagai default
         if (savedInstanceState == null) {
-            loadFragment(new homePage());
+            homePage homeFrag = homePage.newInstance(loggedIn);
+            loadFragment(homeFrag);
         }
 
         return view;
@@ -36,8 +56,6 @@ public class appNav extends Fragment {
                 .replace(R.id.fragment_container, fragment)
                 .commit();
     }
-
-
 
     private final BottomNavigationView.OnItemSelectedListener navListener =
             item -> {

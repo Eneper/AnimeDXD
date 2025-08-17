@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/nav_home"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/home_svgrepo_com"
         android:title="Home" />
 
     <item
         android:id="@+id/nav_list"
-        android:icon="@drawable/ic_menu"
+        android:icon="@drawable/ic_list"
         android:title="List" />
 
     <item
         android:id="@+id/nav_about"
-        android:icon="@drawable/ic_menu"
+        android:icon="@drawable/ic_info"
         android:title="About" />
 
 </menu>

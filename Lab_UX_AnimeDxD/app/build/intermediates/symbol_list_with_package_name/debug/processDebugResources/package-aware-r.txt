@@ -3083,6 +3083,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_menu_24
 drawable blackclover
 drawable blackclover1
 drawable blackclover2
@@ -3197,6 +3198,7 @@ drawable frieren3
 drawable haikyu
 drawable haikyu1
 drawable heroticket
+drawable home_svgrepo_com
 drawable hyouka
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3207,9 +3209,11 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_info
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_list
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3382,6 +3386,7 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
+id action_logout
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3632,6 +3637,8 @@ id line3
 id linear
 id listMode
 id list_item
+id logoutButton
+id logout_popup
 id m3_side_sheet
 id marquee
 id masked
@@ -3887,6 +3894,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id usName
 id useLogo
 id vertical
 id vertical_only
@@ -4070,6 +4078,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout isi_carousel
 layout item_list
+layout logout_popup
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4141,6 +4150,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_navigation_menu
+menu logout_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals exo_controls_fastforward_by_amount_description

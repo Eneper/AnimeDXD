@@ -18,7 +18,7 @@ public class loginFragment extends Fragment {
 
     // Interface untuk berkomunikasi dengan MainActivity
     public interface OnLoginSuccessListener {
-        void onLoginSuccess();
+        void onLoginSuccess(String username);
     }
     private OnLoginSuccessListener listener;
 
@@ -45,10 +45,10 @@ public class loginFragment extends Fragment {
             String Username = etUsname.getText().toString().trim();
             String password = etPassword.getText().toString().trim();
 
-            if (Username.equals("Carmen") && password.equals("123456")) {
-                // Beri tahu MainActivity bahwa login sukses
+            if (password.equals("123456")) {
+                // Beri tahu MainActivity bahwa login sukses dan pass username
                 if (listener != null) {
-                    listener.onLoginSuccess();
+                    listener.onLoginSuccess(Username);
                 }
             } else {
                 Toast.makeText(getContext(), "Email atau password salah", Toast.LENGTH_SHORT).show();
