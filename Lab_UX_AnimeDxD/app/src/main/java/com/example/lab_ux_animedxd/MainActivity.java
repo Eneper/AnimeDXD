@@ -56,13 +56,18 @@ public class MainActivity extends AppCompatActivity implements loginFragment.OnL
 
     @Override
     public void onLogout() {
-        // Ganti fragment yang sedang tampil dengan LoginFragment
+        Session sessionManager = new Session(this);
+        sessionManager.clearSession();
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.activity_container, new loginFragment())
                 .commit();
     }
 
     public void onLogoutAbout(){
+
+        Session sessionManager = new Session(this);
+        sessionManager.clearSession();
+
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.activity_container, new loginFragment())
                 .commit();

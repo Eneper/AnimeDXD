@@ -16,5 +16,10 @@
         
         
     </style>
+    <style name="Theme.App.FullScreenDialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
     <style name="Theme.Lab_UX_AnimeDxD" parent="Base.Theme.Lab_UX_AnimeDxD"/>
 </resources>

@@ -21,16 +21,16 @@ public final class FragmentAboutBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView appName;
-
-  @NonNull
   public final ImageButton menuButton;
 
-  private FragmentAboutBinding(@NonNull LinearLayout rootView, @NonNull TextView appName,
-      @NonNull ImageButton menuButton) {
+  @NonNull
+  public final TextView usName;
+
+  private FragmentAboutBinding(@NonNull LinearLayout rootView, @NonNull ImageButton menuButton,
+      @NonNull TextView usName) {
     this.rootView = rootView;
-    this.appName = appName;
     this.menuButton = menuButton;
+    this.usName = usName;
   }
 
   @Override
@@ -60,19 +60,19 @@ public final class FragmentAboutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.appName;
-      TextView appName = ViewBindings.findChildViewById(rootView, id);
-      if (appName == null) {
-        break missingId;
-      }
-
       id = R.id.menuButton;
       ImageButton menuButton = ViewBindings.findChildViewById(rootView, id);
       if (menuButton == null) {
         break missingId;
       }
 
-      return new FragmentAboutBinding((LinearLayout) rootView, appName, menuButton);
+      id = R.id.usName;
+      TextView usName = ViewBindings.findChildViewById(rootView, id);
+      if (usName == null) {
+        break missingId;
+      }
+
+      return new FragmentAboutBinding((LinearLayout) rootView, menuButton, usName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

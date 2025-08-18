@@ -4,6 +4,10 @@
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_manga.xml"
     },
     {
+        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_review.xml",
+        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_review.xml"
+    },
+    {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\activity_main.xml",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\activity_main.xml"
     },
@@ -28,6 +32,10 @@
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_app_nav.xml"
     },
     {
+        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_home_page.xml",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_home_page.xml"
     },
@@ -36,12 +44,12 @@
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_about.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\about_us.xml",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\about_us.xml"
+        "merged": "com.example.lab_ux_animedxd.app-mergeDebugResources-38:/layout/fragment_about.xml",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_about.xml"
     },
     {
-        "merged": "com.example.lab_ux_animedxd.app-mergeDebugResources-38:/layout/logout_popup.xml",
-        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/logout_popup.xml"
+        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\about_us.xml",
+        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\about_us.xml"
     },
     {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_home_page_backup.xml",

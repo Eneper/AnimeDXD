@@ -46,9 +46,16 @@ public class about extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // ... (kode setup Anda untuk username, video, tabs, dll.)
+        Session sessionManager = new Session(requireContext());
+        String loggedInUsername = sessionManager.getUsername();
 
-        // 3. Tambahkan listener untuk tombol menu
+        TextView welcomeName = view.findViewById(R.id.usName);
+        if(loggedInUsername != null && !loggedInUsername.isEmpty()){
+            welcomeName.setText("Welcome, "+ loggedInUsername + "!");
+        }else{
+            welcomeName.setText("No name");
+        }
+
         ImageButton menuButton = view.findViewById(R.id.menuButton);
         menuButton.setOnClickListener(v -> showLogoutPopup(view)); // Kirim 'view' sebagai anchor
     }

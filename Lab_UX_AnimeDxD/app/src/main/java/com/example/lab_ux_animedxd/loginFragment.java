@@ -45,13 +45,18 @@ public class loginFragment extends Fragment {
             String Username = etUsname.getText().toString().trim();
             String password = etPassword.getText().toString().trim();
 
-            if (password.equals("123456")) {
-                // Beri tahu MainActivity bahwa login sukses dan pass username
+            if (Username.isEmpty()) {
+                Toast.makeText(getContext(), "Username must be filled in", Toast.LENGTH_SHORT).show();
+            } else if (password.isEmpty()) {
+                Toast.makeText(getContext(), "Password must be filled id", Toast.LENGTH_SHORT).show();
+            } else if (Username.length() >= 5 && Username.length() < 11) {
+                Session sessionManager = new Session(requireContext());
+                sessionManager.saveUsername(Username);
                 if (listener != null) {
                     listener.onLoginSuccess(Username);
                 }
             } else {
-                Toast.makeText(getContext(), "Email atau password salah", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Username or password must be filled", Toast.LENGTH_SHORT).show();
             }
         });
 

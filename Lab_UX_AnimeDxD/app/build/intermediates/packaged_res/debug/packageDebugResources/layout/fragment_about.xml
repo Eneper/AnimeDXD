@@ -24,7 +24,7 @@
             android:layout_marginEnd="12dp" />
 
         <TextView
-            android:id="@+id/appName"
+            android:id="@+id/usName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

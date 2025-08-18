@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lab_ux_animedxd.R;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class ItemListBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final CardView rootView;
 
   @NonNull
   public final ImageView gambarList;
@@ -27,19 +27,23 @@ public final class ItemListBinding implements ViewBinding {
   public final TextView itemDesc;
 
   @NonNull
+  public final TextView itemGenre;
+
+  @NonNull
   public final TextView itemName;
 
-  private ItemListBinding(@NonNull LinearLayout rootView, @NonNull ImageView gambarList,
-      @NonNull TextView itemDesc, @NonNull TextView itemName) {
+  private ItemListBinding(@NonNull CardView rootView, @NonNull ImageView gambarList,
+      @NonNull TextView itemDesc, @NonNull TextView itemGenre, @NonNull TextView itemName) {
     this.rootView = rootView;
     this.gambarList = gambarList;
     this.itemDesc = itemDesc;
+    this.itemGenre = itemGenre;
     this.itemName = itemName;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -76,13 +80,19 @@ public final class ItemListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.item_genre;
+      TextView itemGenre = ViewBindings.findChildViewById(rootView, id);
+      if (itemGenre == null) {
+        break missingId;
+      }
+
       id = R.id.item_name;
       TextView itemName = ViewBindings.findChildViewById(rootView, id);
       if (itemName == null) {
         break missingId;
       }
 
-      return new ItemListBinding((LinearLayout) rootView, gambarList, itemDesc, itemName);
+      return new ItemListBinding((CardView) rootView, gambarList, itemDesc, itemGenre, itemName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

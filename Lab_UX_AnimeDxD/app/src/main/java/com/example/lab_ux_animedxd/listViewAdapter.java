@@ -18,9 +18,10 @@ public class listViewAdapter extends RecyclerView.Adapter<listViewAdapter.listHo
 
     private List<isiList> gambar;
 
-    public listViewAdapter(Context context, List<isiList> gambar) {
+    public listViewAdapter(Context context, List<isiList> gambar, OnItemClickListener listener) {
         this.context = context;
         this.gambar = gambar;
+        this.listener = listener;
     }
 
     @NonNull
@@ -28,7 +29,7 @@ public class listViewAdapter extends RecyclerView.Adapter<listViewAdapter.listHo
     public listHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list, parent , false);
 
-        return new listHolder(view);
+        return new listHolder(view , listener);
     }
 
     @Override
@@ -36,6 +37,7 @@ public class listViewAdapter extends RecyclerView.Adapter<listViewAdapter.listHo
         isiList isi = gambar.get(position);
         holder.imgCover.setImageResource(isi.getImageResourceId());
         holder.name.setText(isi.getName());
+        holder.genre.setText((isi.getGenre()));
         holder.desc.setText(isi.getDescription());
     }
 
@@ -53,14 +55,29 @@ public class listViewAdapter extends RecyclerView.Adapter<listViewAdapter.listHo
 
         ImageView imgCover;
 
-        TextView name , desc;
+        TextView name , desc , genre;
 
-        public listHolder(@NonNull View itemView) {
+        public listHolder(@NonNull View itemView , OnItemClickListener listener) {
             super(itemView);
             imgCover = itemView.findViewById(R.id.gambar_list);
             name = itemView.findViewById(R.id.item_name);
+            genre = itemView.findViewById(R.id.item_genre);
             desc = itemView.findViewById(R.id.item_desc);
+
+            itemView.setOnClickListener(v -> {
+                int position = getAdapterPosition();
+                if(position != RecyclerView.NO_POSITION){
+                    listener.onItemClick(position);
+                }
+            });
         }
+
     }
 
+    //Ini buat ngatur item bisa di klik
+    public interface OnItemClickListener {
+        void onItemClick(int position);
+    }
+
+    private OnItemClickListener listener;
 }

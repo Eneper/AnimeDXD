@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -71,6 +72,7 @@ public class appNav extends Fragment {
                 }
 
                 if (selectedFragment != null) {
+                    // Ganti 'main_container' dengan ID FrameLayout Anda
                     loadFragment(selectedFragment);
                 }
                 return true;

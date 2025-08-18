@@ -106,9 +106,12 @@ public class homePage extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         playerView = view.findViewById(R.id.video_player_view);
 
+        Session sessionManager = new Session(requireContext());
+        String loggedInUsername = sessionManager.getUsername();
+
         TextView welcomeName = view.findViewById(R.id.usName);
-        if(username != null && !username.isEmpty()){
-            welcomeName.setText("Welcome, "+ username + "!");
+        if(loggedInUsername != null && !loggedInUsername.isEmpty()){
+            welcomeName.setText("Welcome, "+ loggedInUsername + "!");
         }else{
             welcomeName.setText("No name");
         }
