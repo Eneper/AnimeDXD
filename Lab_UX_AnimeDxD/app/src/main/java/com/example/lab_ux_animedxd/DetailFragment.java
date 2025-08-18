@@ -22,15 +22,17 @@ public class DetailFragment extends DialogFragment {
     private static final String ARG_GENRE = "ARG_GENRE";
     private static final String ARG_DESC = "ARG_DESC";
     private static final String ARG_IMAGE_ID = "ARG_IMAGE_ID";
+    private static final String ARG_LIMAGE_ID = "ARG_LIMAGE_ID";
 
     // Factory method untuk membuat fragment sambil mengirim data
-    public static DetailFragment newInstance(String name, String genre, String description, int imageId) {
+    public static DetailFragment newInstance(String name, String genre, String description, int imageId , int LimageId) {
         DetailFragment fragment = new DetailFragment();
         Bundle args = new Bundle();
         args.putString(ARG_NAME, name);
         args.putString(ARG_GENRE, genre);
         args.putString(ARG_DESC, description);
         args.putInt(ARG_IMAGE_ID, imageId);
+        args.putInt(ARG_LIMAGE_ID, LimageId);
         fragment.setArguments(args);
         return fragment;
     }
@@ -50,6 +52,7 @@ public class DetailFragment extends DialogFragment {
             String genre = getArguments().getString(ARG_GENRE);
             String description = getArguments().getString(ARG_DESC);
             int imageId = getArguments().getInt(ARG_IMAGE_ID);
+            int LimageId = getArguments().getInt(ARG_LIMAGE_ID);
 
             ImageView bannerImage = view.findViewById(R.id.land_image);
             ImageView posterImage = view.findViewById(R.id.port_image);
@@ -59,7 +62,7 @@ public class DetailFragment extends DialogFragment {
             ImageButton backButton = view.findViewById(R.id.backButton);
 
             // Tampilkan data
-            bannerImage.setImageResource(imageId);
+            bannerImage.setImageResource(LimageId);
             posterImage.setImageResource(imageId);
             titleText.setText(name);
             genreText.setText(genre);

@@ -9,13 +9,16 @@ public class isiList {
     private String description;
     private int image;
 
+    private int landImage;
+
     private int ImageResourceId;
 
-    public isiList(String nama ,String genre ,String description,int image){
+    public isiList(String nama ,String genre ,String description,int image , int landImage){
         this.nama = nama;
         this.genre = genre;
         this.description = description;
         this.image = image;
+        this.landImage = landImage;
     }
 
     public String getName(){
@@ -34,5 +37,8 @@ public class isiList {
 
     public int getImageResourceId(){
         return this.image;
+    }
+    public int getlandImage(){
+        return landImage;
     }
 }

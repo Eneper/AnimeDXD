@@ -3238,6 +3238,14 @@ drawable indicator_inactive
 drawable kerenaja
 drawable koenokatachi
 drawable koenokatachi1
+drawable land_aot
+drawable land_deathnote
+drawable land_fullmetal
+drawable land_jujutsu
+drawable land_mob
+drawable land_sakamoto
+drawable land_steins
+drawable land_vinl
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle

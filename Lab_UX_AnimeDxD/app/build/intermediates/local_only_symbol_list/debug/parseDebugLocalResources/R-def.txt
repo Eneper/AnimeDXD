@@ -46,6 +46,14 @@ drawable indicator_inactive
 drawable kerenaja
 drawable koenokatachi
 drawable koenokatachi1
+drawable land_aot
+drawable land_deathnote
+drawable land_fullmetal
+drawable land_jujutsu
+drawable land_mob
+drawable land_sakamoto
+drawable land_steins
+drawable land_vinl
 drawable manga_orv
 drawable mydressupdarling
 drawable myteenromanticcomedysnafu

@@ -53,7 +53,7 @@ public class listViewAdapter extends RecyclerView.Adapter<listViewAdapter.listHo
 
     static class listHolder extends RecyclerView.ViewHolder{
 
-        ImageView imgCover;
+        ImageView imgCover, landImg;
 
         TextView name , desc , genre;
 
