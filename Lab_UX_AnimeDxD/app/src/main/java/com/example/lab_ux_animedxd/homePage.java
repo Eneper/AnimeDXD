@@ -1,6 +1,7 @@
 package com.example.lab_ux_animedxd;
 
 import android.content.Context;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -125,13 +126,17 @@ public class homePage extends Fragment {
         player = new ExoPlayer.Builder(requireContext()).build();
         playerView.setPlayer(player);
 
-        // Buat item media dari URL video
-        // Ganti URL ini dengan URL video Anda atau gunakan dari folder raw
-        MediaItem mediaItem = MediaItem.fromUri("");
+        // Dapatkan URI dari file di folder raw
+        Uri videoUri = Uri.parse("android.resource://" + requireContext().getPackageName() + "/" + R.raw.video);
+
+        // Buat MediaItem dari URI
+        MediaItem mediaItem = MediaItem.fromUri(videoUri);
 
         // Set item media ke player dan siapkan
         player.setMediaItem(mediaItem);
         player.prepare();
+
+        // Mulai pemutaran
         player.play();
     }
 
