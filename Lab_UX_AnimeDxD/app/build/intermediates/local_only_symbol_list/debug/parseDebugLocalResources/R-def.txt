@@ -127,10 +127,12 @@ layout fragment_review
 layout isi_carousel
 layout item_list
 layout logout_popup
+layout manga_list
 menu bottom_navigation_menu
 menu logout_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw video
 string action_sign_in
 string action_sign_in_short
 string app_name
