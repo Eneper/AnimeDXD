@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\land_fullmetal.jpg"
     },
     {
-        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_haikyu1.jpg.flat",
-        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\haikyu1.jpg"
-    },
-    {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_bochi.jpg.flat",
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\bochi.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_haikyu1.jpg.flat",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\haikyu1.jpg"
     },
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_ic_menu.png.flat",
@@ -72,16 +72,16 @@
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\anime_vinland.jpg"
     },
     {
-        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\layout_fragment_about.xml.flat",
-        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_about.xml"
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_land_sakamoto.jpg.flat",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\land_sakamoto.jpg"
     },
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_indicator_inactive.xml.flat",
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\indicator_inactive.xml"
     },
     {
-        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_land_sakamoto.jpg.flat",
-        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\land_sakamoto.jpg"
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_about.xml"
     },
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\mipmap-anydpi_ic_launcher_round.xml.flat",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\menu\\logout_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_anime_mob.jpg.flat",
-        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\anime_mob.jpg"
-    },
-    {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_ic_back.xml.flat",
         "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_anime_mob.jpg.flat",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\anime_mob.jpg"
     },
     {
         "merged": "C:\\Users\\Acer\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_kerenaja.jpg.flat",

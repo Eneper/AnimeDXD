@@ -50,12 +50,44 @@
 
         </LinearLayout>
 
-        <androidx.media3.ui.PlayerView
-            android:id="@+id/video_player_view"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            app:resize_mode="zoom"
-            />
+            android:layout_height="wrap_content">
+
+            <androidx.media3.ui.PlayerView
+                android:id="@+id/video_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:resize_mode="zoom" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp"
+                >
+
+                <TextView
+                    android:id="@+id/video_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black Clover"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/video_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Set in a world where people are born with the ability to use magic, the story follows Asta, a young boy without any magic power who is given a rare grimoire that grants him anti-magic abilities."
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    android:paddingRight="100dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
 
         <!-- TODO: Tab Control -->
         <com.google.android.material.tabs.TabLayout

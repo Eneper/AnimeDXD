@@ -3929,7 +3929,9 @@ int id useLogo 0x7f0a024b
 int id vertical 0x7f0a024c
 int id vertical_only 0x7f0a024d
 int id video_decoder_gl_surface_view 0x7f0a024e
+int id video_description 0x7f0a0266
 int id video_player_view 0x7f0a024f
+int id video_title 0x7f0a0267
 int id viewPager 0x7f0a0250
 int id viewPagerCarousel 0x7f0a0251
 int id view_offset_helper 0x7f0a0252

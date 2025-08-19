@@ -33,19 +33,28 @@ public final class FragmentHomePageBinding implements ViewBinding {
   public final TextView usName;
 
   @NonNull
+  public final TextView videoDescription;
+
+  @NonNull
   public final PlayerView videoPlayerView;
+
+  @NonNull
+  public final TextView videoTitle;
 
   @NonNull
   public final ViewPager2 viewPager;
 
   private FragmentHomePageBinding(@NonNull ScrollView rootView, @NonNull ImageButton logoutButton,
-      @NonNull TabLayout tabLayout, @NonNull TextView usName, @NonNull PlayerView videoPlayerView,
+      @NonNull TabLayout tabLayout, @NonNull TextView usName, @NonNull TextView videoDescription,
+      @NonNull PlayerView videoPlayerView, @NonNull TextView videoTitle,
       @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.logoutButton = logoutButton;
     this.tabLayout = tabLayout;
     this.usName = usName;
+    this.videoDescription = videoDescription;
     this.videoPlayerView = videoPlayerView;
+    this.videoTitle = videoTitle;
     this.viewPager = viewPager;
   }
 
@@ -94,9 +103,21 @@ public final class FragmentHomePageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.video_description;
+      TextView videoDescription = ViewBindings.findChildViewById(rootView, id);
+      if (videoDescription == null) {
+        break missingId;
+      }
+
       id = R.id.video_player_view;
       PlayerView videoPlayerView = ViewBindings.findChildViewById(rootView, id);
       if (videoPlayerView == null) {
+        break missingId;
+      }
+
+      id = R.id.video_title;
+      TextView videoTitle = ViewBindings.findChildViewById(rootView, id);
+      if (videoTitle == null) {
         break missingId;
       }
 
@@ -107,7 +128,7 @@ public final class FragmentHomePageBinding implements ViewBinding {
       }
 
       return new FragmentHomePageBinding((ScrollView) rootView, logoutButton, tabLayout, usName,
-          videoPlayerView, viewPager);
+          videoDescription, videoPlayerView, videoTitle, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
