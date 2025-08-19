@@ -109,7 +109,9 @@ id tabLayout
 id tahunusia
 id tv_login_title
 id usName
+id video_description
 id video_player_view
+id video_title
 id viewPager
 id viewPagerCarousel
 layout about_us
