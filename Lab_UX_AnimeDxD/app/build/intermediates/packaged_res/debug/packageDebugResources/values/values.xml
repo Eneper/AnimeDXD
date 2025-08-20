@@ -22,4 +22,8 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
     <style name="Theme.Lab_UX_AnimeDxD" parent="Base.Theme.Lab_UX_AnimeDxD"/>
+    <style name="roundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        </style>
 </resources>

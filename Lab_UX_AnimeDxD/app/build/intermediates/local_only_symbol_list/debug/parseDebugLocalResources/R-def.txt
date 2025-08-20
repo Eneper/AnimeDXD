@@ -150,5 +150,6 @@ string welcome
 style Base.Theme.Lab_UX_AnimeDxD
 style Theme.App.FullScreenDialog
 style Theme.Lab_UX_AnimeDxD
+style roundedImageView
 xml backup_rules
 xml data_extraction_rules

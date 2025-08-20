@@ -24,6 +24,10 @@
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\tenkinoko1.jpg"
     },
     {
+        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_fragment_news.xml.flat",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_news.xml"
+    },
+    {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\raw_video.mp4.flat",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\raw\\video.mp4"
     },
@@ -170,10 +174,6 @@
     {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\drawable_haikyu.jpg.flat",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\drawable\\haikyu.jpg"
-    },
-    {
-        "merged": "com.example.lab_ux_animedxd.app-debug-39:/layout_logout_home.xml.flat",
-        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/logout_home.xml"
     },
     {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 
-public class MainActivity extends AppCompatActivity implements loginFragment.OnLoginSuccessListener, homePage.OnLogoutListener , about.OnLogoutRequestListener
+public class MainActivity extends AppCompatActivity implements loginFragment.OnLoginSuccessListener, homePage.OnLogoutListener , about.OnLogoutRequestListener, listPage.OnLogoutRequestListener
 {
 
     @Override
@@ -49,6 +49,16 @@ public class MainActivity extends AppCompatActivity implements loginFragment.OnL
     }
 
     public void onLogoutAbout(){
+
+        Session sessionManager = new Session(this);
+        sessionManager.clearSession();
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.activity_container, new loginFragment())
+                .commit();
+    }
+
+    public void onLogoutList(){
 
         Session sessionManager = new Session(this);
         sessionManager.clearSession();

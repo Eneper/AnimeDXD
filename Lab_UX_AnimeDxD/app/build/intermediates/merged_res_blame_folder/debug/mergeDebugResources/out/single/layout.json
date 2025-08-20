@@ -24,10 +24,6 @@
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\item_list.xml"
     },
     {
-        "merged": "com.example.lab_ux_animedxd.app-mergeDebugResources-38:/layout/logout_home.xml",
-        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/logout_home.xml"
-    },
-    {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_list_page.xml",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_list_page.xml"
     },
@@ -52,23 +48,27 @@
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\about_us.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\logout_home.xml",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\logout_home.xml"
+        "merged": "com.example.lab_ux_animedxd.app-mergeDebugResources-38:/layout/fragment_news.xml",
+        "source": "com.example.lab_ux_animedxd.app-main-41:/layout/fragment_news.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_home_page_backup.xml",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_home_page_backup.xml"
+        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\logout_home.xml",
+        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\logout_home.xml"
     },
     {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_news.xml",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_news.xml"
     },
     {
-        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\isi_carousel.xml",
-        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\isi_carousel.xml"
+        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\fragment_home_page_backup.xml",
+        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\fragment_home_page_backup.xml"
     },
     {
         "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\manga_list.xml",
         "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\manga_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-mergeDebugResources-38:\\layout\\isi_carousel.xml",
+        "source": "C:\\Users\\3nver\\.gradle\\daemon\\8.11.1\\com.example.lab_ux_animedxd.app-main-41:\\layout\\isi_carousel.xml"
     }
 ]
