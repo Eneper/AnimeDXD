@@ -1,9 +1,9 @@
-#Tue Aug 19 11:30:09 WIB 2025
-base.0=D\:\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.3=D\:\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.4=D\:\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Aug 20 21:16:43 WIB 2025
+base.0=C\:\\Users\\3nver\\AnimeDXD_UX\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\3nver\\AnimeDXD_UX\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\3nver\\AnimeDXD_UX\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.3=C\:\\Users\\3nver\\AnimeDXD_UX\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.4=C\:\\Users\\3nver\\AnimeDXD_UX\\AnimeDXD\\Lab_UX_AnimeDxD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=15/classes.dex

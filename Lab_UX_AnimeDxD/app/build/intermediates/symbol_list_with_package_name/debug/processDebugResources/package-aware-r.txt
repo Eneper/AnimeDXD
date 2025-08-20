@@ -3921,6 +3921,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_login_title
+id tv_logout
 id unchecked
 id uniform
 id unlabeled
@@ -4113,6 +4114,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout isi_carousel
 layout item_list
+layout logout_home
 layout logout_popup
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

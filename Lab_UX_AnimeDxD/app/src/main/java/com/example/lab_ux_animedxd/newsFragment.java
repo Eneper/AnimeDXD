@@ -48,6 +48,8 @@ public class newsFragment extends Fragment {
         CarouselAdapter adapter = new CarouselAdapter(carousels);
         carouselViewPager.setAdapter(adapter);
 
+        ViewPager2 parentViewPager = requireActivity().findViewById(R.id.viewPager);
+
         autoScrollRunnable = () -> {
             int currentItem = carouselViewPager.getCurrentItem();
             int nextItem = currentItem + 1;
@@ -62,18 +64,15 @@ public class newsFragment extends Fragment {
             // Jadwalkan eksekusi berikutnya
             autoScrollHandler.postDelayed(autoScrollRunnable, SCROLL_DELAY);
         };
-//        for (Carousel carousel : carousels) {
-//            View container = LayoutInflater.from(getContext()).inflate(R.layout.isi_carousel, keliling, false);
-//            ImageView image = container.findViewById(R.id.isi_carousel);
+
+        carouselViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+                parentViewPager.setUserInputEnabled(false);
+            }
+        });
 //
-//            image.setImageResource(carousel.getImage());
-//            keliling.addView(container);
-//        }
-//        keliling.setFlipInterval(5000);
-//        keliling.setAutoStart(true);
-//        keliling.setInAnimation(getContext(), android.R.anim.slide_in_left);
-//        keliling.setOutAnimation(getContext(), android.R.anim.fade_out);
-//        keliling.startFlipping();
     }
 
     @Override

@@ -108,6 +108,7 @@ id tabIndicator
 id tabLayout
 id tahunusia
 id tv_login_title
+id tv_logout
 id usName
 id video_description
 id video_player_view
@@ -128,6 +129,7 @@ layout fragment_news
 layout fragment_review
 layout isi_carousel
 layout item_list
+layout logout_home
 layout logout_popup
 layout manga_list
 menu bottom_navigation_menu
