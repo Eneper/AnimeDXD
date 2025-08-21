@@ -39,14 +39,13 @@ public class mangaFragment extends Fragment{
         recyclerView.setHasFixedSize(true);
 
         isiMangas = new ArrayList<>();
-        isiMangas.add(new isiManga("Attack on Titan" , " In a world surrounded by giant walls to protect against man-eating Titans, Eren Yeager joins the military for revenge after his mother's death. His journey uncovers a dark conspiracy behind the Titans' existence.", R.drawable.anime_aot) );
-        isiMangas.add(new isiManga("Death Note" , "Light Yagami finds the Death Note and uses it to kill criminals. His actions trigger a tense cat-and-mouse game with a brilliant international detective named L, who tries to uncover his identity.", R.drawable.anime_deathnote) );
-        isiMangas.add(new isiManga("Fullmetal Alchemist" , "After failing to revive their mother with forbidden alchemy, Edward and Alphonse Elric search for the Philosopher's Stone. Their quest uncovers a vast military conspiracy and the true origin of the stone.\n", R.drawable.anime_fullmetal) );
-        isiMangas.add(new isiManga("Steins;Gate" , " Rintarou Okabe discovers that his modified microwave can send messages to the past. This discovery throws him into a dangerous conspiracy, forcing him to leap across timelines to save his friends.", R.drawable.anime_steins) );
-        isiMangas.add(new isiManga("Sakamoto Days" , "Taro Sakamoto, the ultimate assassin, retired for a peaceful family life. Now overweight and running a convenience store, he must protect his new life from old enemies, all without breaking his promise to his wife: never kill again.", R.drawable.anime_sakamoto) );
-        isiMangas.add(new isiManga("Mob Psycho 100" , " Shigeo \"Mob\" Kageyama is an incredibly powerful esper trying to live a normal life. He suppresses his emotions, but when they reach 100%, an unimaginable power is unleashed.", R.drawable.anime_mob) );
-        isiMangas.add(new isiManga("Vinland Saga" , "Thorfinn joins the mercenary group of Askeladd to get revenge for his father's death. His journey takes him into the war for the English throne, while exploring the meaning of a warrior's life.", R.drawable.anime_vinland) );
-        isiMangas.add(new isiManga("Jujutsu kaisen" , " Yuji Itadori swallows a cursed talisman and becomes the vessel for Sukuna. He joins the Jujutsu High to fight against Cursed Spirits while being hunted, all to protect his loved ones from harm.", R.drawable.anime_jujutsu) );
+        isiMangas.add(new isiManga("Wind Breaker" , "\n" +
+                "Jay Jo, a quiet honor student, is secretly a top-notch street bike racer. Along with the Hummingbird Crew, he pursues freedom and speed, facing challenges on the streets and in life.", R.drawable.windbreakerwebtoon) );
+        isiMangas.add(new isiManga("Weak Hero" , "Weak Hero is a story of revenge, justice, and survival in a brutal world, where true strength isn't always about muscle, but about courage and intelligence.", R.drawable.weakhero) );
+        isiMangas.add(new isiManga("Hero Ticket" , "A world where power can be bought, and lives are risked for the sake of being a \"hero.\" For Jaeha Jung, a hero's ticket isn't just a chance… but a path to truth and revenge.", R.drawable.heroticket) );
+        isiMangas.add(new isiManga("Sakamoto Days" , "\n" +
+                "A former legendary assassin now lives a peaceful life… until the past comes knocking at the door. Now, with apron and gun, Taro Sakamoto is back in action — for his family.", R.drawable.sakamoto) );
+        isiMangas.add(new isiManga("One Piece" , "Monkey D. Luffy sets sail to become the Pirate King and find the legendary treasure, One Piece. Along with the Straw Hat Pirates, he explores a sea full of dangers, secrets, and big dreams.", R.drawable.onepiece) );
 
 
         adapter = new mangaViewAdapter(getContext(), isiMangas);
