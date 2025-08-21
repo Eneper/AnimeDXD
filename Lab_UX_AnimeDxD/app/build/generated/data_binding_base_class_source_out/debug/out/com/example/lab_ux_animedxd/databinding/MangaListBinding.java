@@ -4,7 +4,6 @@ package com.example.lab_ux_animedxd.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +11,7 @@ import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lab_ux_animedxd.R;
+import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,7 +21,7 @@ public final class MangaListBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
-  public final ImageView gambarList;
+  public final ShapeableImageView gambarList;
 
   @NonNull
   public final TextView itemDesc;
@@ -29,7 +29,7 @@ public final class MangaListBinding implements ViewBinding {
   @NonNull
   public final TextView itemName;
 
-  private MangaListBinding(@NonNull CardView rootView, @NonNull ImageView gambarList,
+  private MangaListBinding(@NonNull CardView rootView, @NonNull ShapeableImageView gambarList,
       @NonNull TextView itemDesc, @NonNull TextView itemName) {
     this.rootView = rootView;
     this.gambarList = gambarList;
@@ -65,7 +65,7 @@ public final class MangaListBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.gambar_list;
-      ImageView gambarList = ViewBindings.findChildViewById(rootView, id);
+      ShapeableImageView gambarList = ViewBindings.findChildViewById(rootView, id);
       if (gambarList == null) {
         break missingId;
       }

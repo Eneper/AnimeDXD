@@ -10,19 +10,10 @@
 
     <!-- TODO: Carousel -->
     <androidx.viewpager2.widget.ViewPager2
+        android:layout_marginTop="40dp"
         android:id="@+id/carouselViewPager"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:paddingStart="40dp"
-        android:paddingEnd="40dp"
         android:clipToPadding="false"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Ini tab news"
-        android:textSize="20sp"
-        android:gravity="center"
-        />
 
 </LinearLayout>

@@ -1,6 +1,9 @@
 package com.example.lab_ux_animedxd;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -9,9 +12,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.PopupWindow;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -25,7 +32,21 @@ public class listPage extends Fragment implements listViewAdapter.OnItemClickLis
 
     List<isiList> isiLists;
 
+    public interface OnLogoutRequestListener {
+        void onLogoutList();
+    }
+    private listPage.OnLogoutRequestListener logoutListener;
 
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        // 2. Pastikan MainActivity mengimplementasikan listener
+        if (context instanceof listPage.OnLogoutRequestListener) {
+            logoutListener = (listPage.OnLogoutRequestListener) context;
+        } else {
+            throw new ClassCastException(context.toString() + " must implement OnLogoutRequestListener");
+        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,6 +76,8 @@ public class listPage extends Fragment implements listViewAdapter.OnItemClickLis
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
         super.onViewCreated(view,savedInstanceState);
 
+        ImageButton menuButton = view.findViewById(R.id.menuButton);
+        menuButton.setOnClickListener(v -> showLogoutPopup(view));
     }
 
     @Override
@@ -76,4 +99,46 @@ public class listPage extends Fragment implements listViewAdapter.OnItemClickLis
 //                .commit();
         detailFragment.show(getParentFragmentManager(), "DetailFragmentDialog");
     }
+
+    private void showLogoutPopup(View view) {
+        final View rootView = requireActivity().getWindow().getDecorView().getRootView();
+        final Drawable dim = new ColorDrawable(0x99000000);
+
+
+        rootView.setForeground(dim);
+
+        View popupView = LayoutInflater.from(getContext()).inflate(R.layout.logout_popup, null);
+
+        int heightInDp = 50;
+
+        float scale = getResources().getDisplayMetrics().density;
+        int heightInPixels = (int) (heightInDp * scale + 0.5f);
+
+
+        final PopupWindow popupWindow = new PopupWindow(popupView,
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                heightInPixels, true);
+
+        popupWindow.setOnDismissListener(() -> {
+            // Hapus efek redup saat popup ditutup
+            rootView.setForeground(null);
+        });
+
+        // Setting popupwindow
+        popupWindow.setOutsideTouchable(true);
+        popupWindow.setFocusable(true);
+        popupWindow.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        popupWindow.showAtLocation(view, Gravity.TOP, 0, 0);
+
+
+        TextView tvLogout = popupView.findViewById(R.id.logout_popup);
+        tvLogout.setOnClickListener(v -> {
+            popupWindow.dismiss();
+            if (logoutListener != null) {
+                logoutListener.onLogoutList();
+            }
+        });
+
+    }
+
 }

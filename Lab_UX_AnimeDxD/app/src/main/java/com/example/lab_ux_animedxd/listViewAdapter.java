@@ -74,7 +74,6 @@ public class listViewAdapter extends RecyclerView.Adapter<listViewAdapter.listHo
 
     }
 
-    //Ini buat ngatur item bisa di klik
     public interface OnItemClickListener {
         void onItemClick(int position);
     }

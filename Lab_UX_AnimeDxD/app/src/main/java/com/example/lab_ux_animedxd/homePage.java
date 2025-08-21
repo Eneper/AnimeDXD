@@ -1,6 +1,8 @@
 package com.example.lab_ux_animedxd;
 
 import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -14,6 +16,7 @@ import androidx.media3.ui.PlayerView;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Handler;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +24,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupMenu;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
@@ -183,25 +187,39 @@ public class homePage extends Fragment {
     //Popup logout
     private void showPopupMenu(View anchorView) {
         // Buat instance PopupMenu
-        PopupMenu popup = new PopupMenu(requireContext(), anchorView);
+        final View rootView = requireActivity().getWindow().getDecorView().getRootView();
+        final Drawable dim = new ColorDrawable(0x99000000);
+
+
+        rootView.setForeground(dim);
+//        PopupMenu popup = new PopupMenu(requireContext(), anchorView);
 
         // Hubungkan dengan file menu kita
-        popup.getMenuInflater().inflate(R.menu.logout_menu, popup.getMenu());
+        View popupView = LayoutInflater.from(getContext()).inflate(R.layout.logout_home, null);
 
-        // Atur listener untuk menangani klik pada item menu
-        popup.setOnMenuItemClickListener(item -> {
-            if (item.getItemId() == R.id.action_logout) {
-                // Panggil listener di MainActivity saat "Logout" diklik
-                if (logoutListener != null) {
-                    logoutListener.onLogout();
-                }
-                return true;
-            }
-            return false;
+        final PopupWindow popupWindow = new PopupWindow(popupView,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                true);
+
+        popupWindow.setOnDismissListener(() -> {
+            // Hapus efek redup saat popup ditutup
+            rootView.setForeground(null);
         });
 
-        // Tampilkan popup
-        popup.show();
+        int xOffset = -200;
+        int yOffset = 0; // Coba geser jauh ke bawah
+
+        popupWindow.showAsDropDown(anchorView, xOffset, yOffset);
+
+        // Atur listener untuk menangani klik pada item menu
+        TextView tvLogout = popupView.findViewById(R.id.tv_logout);
+        tvLogout.setOnClickListener(v -> {
+            popupWindow.dismiss(); // Tutup popup
+            if (logoutListener != null) {
+                logoutListener.onLogout(); // Beri tahu MainActivity untuk logout
+            }
+        });
     }
 
 }

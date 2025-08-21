@@ -4,6 +4,7 @@ package com.example.lab_ux_animedxd.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -26,11 +27,15 @@ public final class FragmentListPageBinding implements ViewBinding {
   @NonNull
   public final RecyclerView haList;
 
+  @NonNull
+  public final ImageButton menuButton;
+
   private FragmentListPageBinding(@NonNull LinearLayout rootView, @NonNull TextView appName,
-      @NonNull RecyclerView haList) {
+      @NonNull RecyclerView haList, @NonNull ImageButton menuButton) {
     this.rootView = rootView;
     this.appName = appName;
     this.haList = haList;
+    this.menuButton = menuButton;
   }
 
   @Override
@@ -72,7 +77,13 @@ public final class FragmentListPageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentListPageBinding((LinearLayout) rootView, appName, haList);
+      id = R.id.menuButton;
+      ImageButton menuButton = ViewBindings.findChildViewById(rootView, id);
+      if (menuButton == null) {
+        break missingId;
+      }
+
+      return new FragmentListPageBinding((LinearLayout) rootView, appName, haList, menuButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

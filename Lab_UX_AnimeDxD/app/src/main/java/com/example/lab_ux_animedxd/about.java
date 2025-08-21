@@ -3,6 +3,7 @@ package com.example.lab_ux_animedxd;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -57,10 +58,16 @@ public class about extends Fragment {
         }
 
         ImageButton menuButton = view.findViewById(R.id.menuButton);
-        menuButton.setOnClickListener(v -> showLogoutPopup(view)); // Kirim 'view' sebagai anchor
+        menuButton.setOnClickListener(v -> showLogoutPopup(view));
     }
 
     private void showLogoutPopup(View view) {
+        final View rootView = requireActivity().getWindow().getDecorView().getRootView();
+        final Drawable dim = new ColorDrawable(0x99000000);
+
+
+        rootView.setForeground(dim);
+
         View popupView = LayoutInflater.from(getContext()).inflate(R.layout.logout_popup, null);
 
         int heightInDp = 50;
@@ -72,6 +79,11 @@ public class about extends Fragment {
         final PopupWindow popupWindow = new PopupWindow(popupView,
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 heightInPixels, true);
+
+        popupWindow.setOnDismissListener(() -> {
+            // Hapus efek redup saat popup ditutup
+            rootView.setForeground(null);
+        });
 
         // Setting popupwindow
         popupWindow.setOutsideTouchable(true);
@@ -87,6 +99,7 @@ public class about extends Fragment {
                 logoutListener.onLogoutAbout();
             }
         });
+
     }
 
 

@@ -60,7 +60,9 @@
         <TextView
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:text="lorem ipsum dolor sit amet"
+            android:textSize="18sp"
+
+            android:text="Welcome to AnimeDxD, your ultimate guide for exploring the vast and captivating universes of anime and manga! Our application is designed to provide you with a comprehensive and user-friendly list to discover new series and revisit beloved classics. Whether you're a seasoned otaku or just beginning your journey, our curated collections offer detailed information, genres, and engaging descriptions to help you find your next favorite anime or manga."
             />
 
     </LinearLayout>

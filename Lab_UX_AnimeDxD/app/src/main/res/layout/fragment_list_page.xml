@@ -33,6 +33,15 @@
         android:textSize="20sp"
         android:textColor="@color/white"
         />
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_menu_24"
+            android:contentDescription="Menu">
+
+        </ImageButton>
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
